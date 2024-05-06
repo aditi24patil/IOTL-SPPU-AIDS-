@@ -5,7 +5,7 @@ const int red_led    = 2;
 
 void setup() {
 Serial.begin(9600);  
-Serial.println("Enter you choice:")
+Serial.println("Enter your choice:")
 }
 
 char key=0;  
