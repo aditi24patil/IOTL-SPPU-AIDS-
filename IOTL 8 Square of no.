@@ -1,0 +1,17 @@
+void setup(){
+Serial.begin(9600);
+Serial.println("enter the no:");
+}
+
+void loop(){
+if(Serial.available())
+{
+int input=Serial.parseInt();
+int inputSquared=sq(input);
+Serial.println("Entered Number: ");
+Serial.print(input);
+Serial.println("\nSquare of number: ");
+Serial.print(int(inputSquared));
+delay(5000);
+}
+}
